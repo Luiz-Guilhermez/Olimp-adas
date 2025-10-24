@@ -1,0 +1,386 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid black;
+    padding: 10px 20px 20px 0px;
+}
+.logo img {
+    max-width: 100%;
+    padding-left: 10px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+nav a:hover{ 
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.introducao h1{
+    text-align: center;
+    padding: 80px 0px 50px 0px;
+}
+.base{
+    display: flex;
+    justify-content: center;
+    margin: 0px 180px 150px 180px;
+}
+.base p{
+    font-size: large;
+    padding: 0px 50px 0px 0px;
+    text-align: justify;
+}
+.base img{
+    border-radius: 15px;
+}
+#medalhas{
+    text-align: center;
+}
+#medalhas h2{
+    padding: 0px 0px 40px 0px;
+}
+.EUA{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin: 30px 250px 0px 250px; 
+    padding-left: 50px;
+}
+.EUA p{
+    padding: 0px 80px 0px 70px;
+}
+.EUA img{
+    padding: 5px 50px 0px 50px;    
+}
+.ouro1{
+    color: #D4AF37;
+}
+.prata1{
+    color: #C0C0C0;
+}
+.bronze1{
+    color: #CD7F32;
+}
+.URSS{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin: 30px 250px 0px 250px; 
+    padding-left: 50px;
+}
+.URSS p{
+    padding: 0px 80px 0px 75px;
+}
+.URSS img{
+    padding: 5px 50px 0px 50px;    
+}
+.ouro2{
+    color: #D4AF37;
+}
+.prata2{
+    color: #C0C0C0;
+}
+.bronze2{
+    color: #CD7F32;
+}
+.GB{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin: 30px 250px 0px 250px; 
+    padding-left: 50px;
+}
+.GB p{
+    padding: 0px 80px 0px 75px;
+}
+.GB img{
+    padding: 5px 50px 0px 50px;    
+}
+.ouro3{
+    color: #D4AF37;
+}
+.prata3{
+    color: #C0C0C0;
+}
+.bronze3{
+    color: #CD7F32;
+}
+.CN{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin: 30px 250px 0px 250px; 
+    padding-left: 50px;
+}
+.CN p{
+    padding: 0px 80px 0px 73px;
+}
+.CN img{
+    padding: 5px 50px 0px 50px;    
+}
+.ouro4{
+    color: #D4AF37;
+}
+.prata4{
+    color: #C0C0C0;
+}
+.bronze4{
+    color: #CD7F32;
+}
+.GER{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin: 30px 250px 0px 250px; 
+    padding-left: 50px;
+}
+.GER p{
+    padding: 0px 80px 0px 73px;
+}
+.GER img{
+    padding: 5px 50px 0px 50px;    
+}
+.ouro5{
+    color: #D4AF37;
+}
+.prata5{
+    color: #C0C0C0;
+}
+.bronze5{
+    color: #CD7F32;
+}
+.FR{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin: 30px 250px 0px 250px; 
+    padding-left: 50px;
+}
+.FR p{
+    padding: 0px 80px 0px 73px;
+}
+.FR img{
+    padding: 5px 50px 0px 50px;    
+}
+.ouro6{
+    color: #D4AF37;
+}
+.prata6{
+    color: #C0C0C0;
+}
+.bronze6{
+    color: #CD7F32;
+}
+.IT{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin: 30px 250px 0px 250px; 
+    padding-left: 50px ;
+}
+.IT p{
+    padding: 0px 80px 0px 73px;
+}
+.IT img{
+    padding: 5px 50px 0px 50px;    
+}
+.ouro7{
+    color: #D4AF37;
+}
+.prata7{
+    color: #C0C0C0;
+}
+.bronze7{
+    color: #CD7F32;
+}
+.HU{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin: 30px 250px 0px 250px; 
+    padding-left: 50px;
+}
+.HU p{
+    padding: 0px 80px 0px 73px;
+}
+.HU img{
+    padding: 5px 50px 0px 50px;    
+}
+.ouro8{
+    color: #D4AF37;
+}
+.prata8{
+    color: #C0C0C0;
+}
+.bronze8{
+    color: #CD7F32;
+}
+.AU{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin: 30px 250px 0px 250px; 
+    padding-left: 50px;
+}
+.AU p{
+    padding: 0px 80px 0px 73px;
+}
+.AU img{
+    padding: 5px 50px 0px 50px;    
+}
+.ouro9{
+    color: #D4AF37;
+}
+.prata9{
+    color: #C0C0C0;
+}
+.bronze9{
+    color: #CD7F32;
+}
+.JP{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    margin: 30px 250px 0px 250px; 
+    padding-left: 50px;
+}
+.JP p{
+    padding: 0px 80px 0px 73px;
+}
+.JP img{
+    padding: 5px 50px 0px 50px;    
+}
+.ouro10{
+    color: #D4AF37;
+}
+.prata10{
+    color: #C0C0C0;
+}
+.bronze10{
+    color: #CD7F32;
+}
+#esportes h2{
+    text-align: center;
+    padding: 80px 0px 50px 0px;
+}
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fill, 
+    minmax(180px, 1fr));
+    gap: 20px;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+ul li {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px black;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    transition: box-shadow 0.2s ease, background 0.2s ease;
+    cursor: pointer;
+}  
+ul li:hover {
+    transform: translateY(-5px);
+    background: darkblue;
+    color: white;
+    box-shadow: 0px 8px 20px 0px black;
+}
+footer{
+    margin-top: 80px;
+    background-color: black;
+}
+footer img{
+    margin: 20px 0px 20px 20px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-color: #1a1a1a;
+}
+.TV{
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+.TV p{
+    color: white;
+    font-size: 20px;
+}
+.TV a{
+    color: gray;
+    font-size: 15px;
+    display: block;
+    transition: 0.3s ease;
+}
+.TV a:hover{
+    color: white;
+}
+.noticia{
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+.noticia p{
+    color: white;
+    font-size: 20px;
+}
+.noticia a{
+    color: gray;
+    font-size: 15px;
+    display: block;
+    transition: 0.3s ease;
+}
+.noticia a:hover{
+    color: white;
+}
+.explore{
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+.explore p{
+    color: white;
+    font-size: 20px;
+}
+.explore a{
+    color: gray;
+    font-size: 15px;
+    display: block;
+    transition: 0.3s ease;
+}
+.explore a:hover{
+    color: white;
+}
